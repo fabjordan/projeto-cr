@@ -1,0 +1,33 @@
+body{
+	background-color: #f8f8f8;
+
+	.cr-header-page{
+		
+		padding-bottom: 3%;
+
+		.cr-header-page__title{
+			display: inline-block;
+		}
+
+		.cr-breadcrumb{
+			display: inline-block;
+
+			.breadcrumb{
+				background-color: transparent;
+				padding-bottom: 0px;
+
+				.active{
+					color: $blue;
+				}
+
+				.breadcrumb-item{
+					font-size: 13px;
+				}
+			}
+		}
+
+		.division{
+			border-bottom: 1px solid $gray-500;
+		}
+	}
+}

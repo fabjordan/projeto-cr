@@ -1,0 +1,29 @@
+.card{
+
+	.card-body{
+
+		.cr-card__title{
+			font-size: 1.05em !important;
+		}
+
+		.cr-card__inline{
+			padding: 10px 0px;
+			height: 15vh;
+
+			.inline-block{
+				display: inline-block;
+				padding: 5px;
+			}
+
+			i,svg{
+				display: inline-block;
+			}
+
+			.card-text-inline{
+				margin: -1% 2% 2% 2%;
+				display: inline-block;
+			}
+		}
+	}
+
+}

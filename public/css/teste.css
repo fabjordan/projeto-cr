@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Modules
+@import 'painel-cliente/modules/colors';
+@import 'painel-cliente/modules/inputs';
+@import 'painel-cliente/modules/dropdown';
+@import 'painel-cliente/modules/owl-carrousel';
+@import 'painel-cliente/modules/cards';
+
+// Partials
+@import 'painel-cliente/partials/navbar';
+@import 'painel-cliente/partials/body';

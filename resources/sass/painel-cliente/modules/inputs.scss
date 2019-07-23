@@ -1,0 +1,33 @@
+/**
+*	Input Search
+*/
+
+.cr-form__group {
+
+	position: relative;
+	max-width: 400px;
+	
+	.cr-form__input {
+		border: 0;
+		border-bottom: 2px solid $gray-600;
+		width: 100%;
+		font-size: 15px;
+		line-height: 15px;
+		height: 30px;
+		text-align: center;
+		padding: 10px;
+		background: transparent;
+		color: $gray-600;
+
+		&:focus{
+			outline: 0;
+			color: $gray-700;
+		}
+		&::placeholder{
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+	}
+
+}
+

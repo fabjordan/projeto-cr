@@ -1,0 +1,69 @@
+.owl-carousel{
+
+	.card{
+		height: 200px;
+		text-decoration: none;
+
+		.card-body{
+
+			padding: 2.5rem;
+
+			i,svg{
+				font-size: 32px;
+			}
+
+			.card-text{
+				font-size: 13px;
+				color: $gray-600;
+			}
+
+			.card-text-2{
+				font-size: 25px;
+			}	
+			
+		}
+		
+	}
+
+	.cr-card__blue{
+		background-color: $blue;
+		color: $white;
+
+		.card-text{
+			color: $white !important;
+		}
+	}
+	.cr-card__yellow{
+		background-color: $yellow;
+		color: $white;
+
+		.card-text{
+			color: $white !important;
+		}
+	}
+	.cr-card__green{
+		background-color: $green;
+		color: $white;
+
+		.card-text{
+			color: $white !important;
+		}
+	}
+	.cr-card__red{
+		background-color: $red;
+		color: $white;
+
+		.card-text{
+			color: $white !important;
+		}
+	}
+	.cr-card__purple{
+		background-color: $purple;
+		color: $white;
+
+		.card-text{
+			color: $white !important;
+		}
+	}
+
+}
