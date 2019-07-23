@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
-	return view('welcome');
+	return view('index');
+});
+
+Route::get('/PessoaFisica', function(){
+	return view('cadastroFisica');
+});
+
+Route::get('/PessoaJuridica', function(){
+	return view('cadastroJuridica');
 });
 
 Route::group(['prefix' => '/cliente', 'namespace' => 'Cliente'], function(){
