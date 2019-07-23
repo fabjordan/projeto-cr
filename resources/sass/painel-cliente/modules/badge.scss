@@ -1,0 +1,71 @@
+.cr-badge{
+
+	display: inline-block;
+	padding: 0.45em 0.5em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.5rem;
+
+	i,svg{
+		margin-left: 3px;
+	}
+}
+
+.cr-badge__blue{
+	@extend .cr-badge;
+	background-color: $blue;
+	color: $white;
+}
+
+.cr-badge__red{
+	@extend .cr-badge;
+	background-color: $red;
+	color: $white;
+	
+}
+
+.cr-badge__gray{
+	@extend .cr-badge;
+	background-color: $gray-4;
+	color: $white;
+}
+
+.cr-badge__purple{
+	@extend .cr-badge;
+	background-color: $purple;
+	color: $white;
+}
+
+.cr-badge__pink{
+	@extend .cr-badge;
+	background-color: $pink;
+	color: $white;
+}
+
+.cr-badge__indigo{
+	@extend .cr-badge;
+	background-color: $indigo;
+	color: $white;
+}
+
+.cr-badge__green{
+	@extend .cr-badge;
+	background-color: $green;
+	color: $white;
+}
+
+.cr-badge__cyan{
+	@extend .cr-badge;
+	background-color: $cyan;
+	color: $black;
+}
+
+.cr-badge__teal{
+	@extend .cr-badge;
+	background-color: $teal;
+	color: $white;
+}

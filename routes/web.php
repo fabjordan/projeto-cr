@@ -15,17 +15,25 @@ Route::get('/', function () {
 	return view('welcome');
 });
 
-Route::group(['prefix' => '/cliente', 'namespace' => 'Cliente'], function(){
+Route::group(['prefix' => '/cliente'], function(){
 
 	Route::get('/dashboard', function(){
 		return view('cliente.dashboard');
 	})->name('cliente.dashboard');
 
 
-	Route::get('/certidoes', function(){
-		return view('cliente.certidoes');
-	})->name('cliente.certidoes');
 
+	Route::group(['prefix' => '/certidoes'], function(){
+
+		Route::get('/', function(){
+			return view('cliente.certidoes.index');
+		})->name('cliente.certidoes.index');
+
+		Route::get('/dados-gerais', function(){
+			return view('cliente.certidoes.dados-gerais');
+		})->name('cliente.certidoes.dados-gerais');
+
+	});
 
 	Route::get('/protocolo', function(){
 		return view('cliente.protocolo');

@@ -8,7 +8,7 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('cliente.certidoes') }}" class="text-center">
+            <a href="{{ route('cliente.certidoes.index') }}" class="text-center">
                 <i class="iconsmind-Letter-Open"></i>
                 Pedidos de Certidão
             </a>

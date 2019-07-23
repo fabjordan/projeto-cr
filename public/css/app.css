@@ -10886,6 +10886,103 @@ a.text-dark:focus {
   display: inline-block;
 }
 
+.card-certidao .card-body h5 {
+  color: #378BBB !important;
+}
+
+.card-certidao .card-body h6 {
+  color: #6c757d;
+}
+
+.cr-badge,
+.cr-badge__teal,
+.cr-badge__cyan,
+.cr-badge__green,
+.cr-badge__indigo,
+.cr-badge__pink,
+.cr-badge__purple,
+.cr-badge__gray,
+.cr-badge__red,
+.cr-badge__blue {
+  display: inline-block;
+  padding: 0.45em 0.5em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.5rem;
+}
+
+.cr-badge i,
+.cr-badge__teal i,
+.cr-badge__cyan i,
+.cr-badge__green i,
+.cr-badge__indigo i,
+.cr-badge__pink i,
+.cr-badge__purple i,
+.cr-badge__gray i,
+.cr-badge__red i,
+.cr-badge__blue i,
+.cr-badge svg,
+.cr-badge__teal svg,
+.cr-badge__cyan svg,
+.cr-badge__green svg,
+.cr-badge__indigo svg,
+.cr-badge__pink svg,
+.cr-badge__purple svg,
+.cr-badge__gray svg,
+.cr-badge__red svg,
+.cr-badge__blue svg {
+  margin-left: 3px;
+}
+
+.cr-badge__blue {
+  background-color: #378BBB;
+  color: #fff;
+}
+
+.cr-badge__red {
+  background-color: #e3342f;
+  color: #fff;
+}
+
+.cr-badge__gray {
+  background-color: #edf0f5;
+  color: #fff;
+}
+
+.cr-badge__purple {
+  background-color: #9561e2;
+  color: #fff;
+}
+
+.cr-badge__pink {
+  background-color: #f66d9b;
+  color: #fff;
+}
+
+.cr-badge__indigo {
+  background-color: #6574cd;
+  color: #fff;
+}
+
+.cr-badge__green {
+  background-color: #63B971;
+  color: #fff;
+}
+
+.cr-badge__cyan {
+  background-color: #6cb2eb;
+  color: #000;
+}
+
+.cr-badge__teal {
+  background-color: #4dc0b5;
+  color: #fff;
+}
+
 /*
     DEMO STYLE
 */
