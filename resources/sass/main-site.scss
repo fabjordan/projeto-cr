@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito:600&display=swap';
+
+// Cores Padrões
+@import 'painel-cliente/modules/colors';
+@import 'painel-cliente/core/new-class';
+
+// Site
+@import 'site/navbar.scss';
+@import 'site/index.scss';
+@import 'site/footer.scss';
+@import 'site/contato.scss';
+@import 'site/modalLogin.scss';
+@import 'site/institucional.scss';
+@import 'site/cadastro.scss';
+
+body{
+	background-color: #d9d9d9;
+	font-family: 'Nunito', sans-serif !important;
+}

@@ -1,0 +1,37 @@
+footer {
+    background-color: #262228;
+    color: #999a9b;
+    
+    ul {
+        list-style: none;
+
+        a {
+            color: #999a9b;
+
+            &:hover {
+                color: #bbbcbd;
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .atendimento-side img {
+        margin-left: 2%;
+    }
+
+
+    .div-footer {
+        padding-bottom: 0;
+        padding-left: 10%;
+        padding-top: 2%;
+    }
+
+    .titulo-footer {
+        border-left: solid 5px #999a9b;
+
+        h5 {
+            margin-left: 2%;
+        }
+    }
+
+}
