@@ -3,38 +3,44 @@
 @section('content')
 
 <section class="pb-5 mt-8">
-	<div class="row jumbotron">
-		<h1>Tabela de Emolumentos</h1>
-	</div>
-	<div class="col-12">
-		<div class="col-12 text-center">
-			<h5>Aqui você pode encontrar e pesquisar os valores da Tabela de Custas e Emolumentos atualizada, fornecida pelo Tribunal de Justiça.</h5>
+	<div class="row col-12 justify-content-center">
+		<div class="col-5">
+			<img  src="{{asset('img/vetores/vetor2.png')}}">
 		</div>
-		<form class="mb-3 mr-auto">
-			<div class="form-row  mx-auto">
-				<div class="col form-group">
-					<input class="form-control" type="text" name="pesquisa">
-				</div>
-				<div class="col form-group">
-					<select class="form-control custom-select">
-						<option>Busca por atribuição</option>
-						<option>Registro de Imóveis</option>
-						<option>Registro de Título e Documentos</option>
-						<option>Tabelionato de Notas</option>
-						<option>Registro Civil das Pessoas Naturais</option>
-						<option>Registro Civil das Pessoas Juridicas</option>
-						<option>Tabelionato de Protesto</option>
-						<option>Tabelionato de Registro de Contratos Marítimos</option>
-						<option>Registro de Distribuição</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<button type="submit" class="form-control btn btn-success">Pesquisar</button>
-				</div>
-			</div>	
-		</form>
+		<div class="col-5 my-5">
+			<div class="mb-4">
+				<h1 class="text-center">Tabela de Emolumentos</h1>
+			</div>
+			<div class="col-12 text-justify">
+				<h5>Aqui você pode encontrar e pesquisar os valores da Tabela de Custas e Emolumentos atualizada, fornecida pelo Tribunal de Justiça.</h5>
+			</div>
+			<form class="mb-3">
+				<div class="form">
+					<div class="form-group">
+						<input class="form-control" type="text" name="pesquisa" placeholder="Digite sua Busca">
+					</div>
+					<div class="form-group">
+						<select class="form-control custom-select">
+							<option>Busca por atribuição</option>
+							<option>Registro de Imóveis</option>
+							<option>Registro de Título e Documentos</option>
+							<option>Tabelionato de Notas</option>
+							<option>Registro Civil das Pessoas Naturais</option>
+							<option>Registro Civil das Pessoas Juridicas</option>
+							<option>Tabelionato de Protesto</option>
+							<option>Tabelionato de Registro de Contratos Marítimos</option>
+							<option>Registro de Distribuição</option>
+						</select>
+					</div>
+					<div class="form-group text-center">
+						<button type="submit" class="form-control btn btn-success col-5">Pesquisar</button>
+					</div>
+				</div>	
+			</form>
+		</div>
 	</div>
-	<div class="table-responsive table-bordered col-12">
+	<div class="row col-12 justify-content-center">
+		<div class=" table-responsive col-11">
 		<table class="table table-hover text-center mt-5 bg-light">
 			<thead>
 				<tr>
@@ -95,7 +101,7 @@
 			</nav>
 		</div>
 	</div>
-
+	</div>
 </div>
 </section>
 @stop
