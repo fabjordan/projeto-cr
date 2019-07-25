@@ -666,6 +666,16 @@ footer .titulo-footer h5 {
   max-width: 180px;
 }
 
+@media only screen and (max-width: 800px) {
+  .emolumentos .img1 {
+    position: relative;
+  }
+
+  .emolumentos .emolumentos__descricao {
+    position: absolute !important;
+  }
+}
+
 body {
   background-color: #d9d9d9;
   font-family: "Nunito", sans-serif !important;
