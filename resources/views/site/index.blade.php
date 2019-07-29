@@ -137,7 +137,7 @@
 			<div class="owl-carousel">
 				<div class="card">
 					<div class="card-body">
-						<img class="img-fluid" src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
+						<img src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<span class="text-muted">
 								Provimento trata de possibilidades de alterações nos sobrenomes de forma extrajudicial
@@ -150,7 +150,7 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<img class="img-fluid" src="{{ asset('img/site/noticias/not2.jpeg') }}" alt="" width="100" height="220">
+						<img src="{{ asset('img/site/noticias/not2.jpeg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<!--h4 class="text-primary">Noticia 2</h4-->
 							<span class="text-muted">
@@ -164,7 +164,7 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<img class="img-fluid" src="{{ asset('img/site/noticias/not3.jpg') }}" alt="" width="100" height="220">
+						<img src="{{ asset('img/site/noticias/not3.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<!--h4 class="text-primary">Noticia 3</h4-->
 							<span class="text-muted">
