@@ -420,6 +420,10 @@
   font-size: 12px;
 }
 
+.text-slide {
+  font-size: 1.3rem;
+}
+
 .noticias {
   background-color: #f8f9fa;
 }

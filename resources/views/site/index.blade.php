@@ -7,26 +7,29 @@
 		<div class="carousel-inner">
 
 			<div class="carousel-item active">
-				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="Certdiões Online">
+				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="img-fluid d-block w-100" alt="Certdiões Online">
 				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
-					<h1 data-aos="fade-right" data-aos-duration="1500">Certidão Online</h1>
-					<p class="lh-2 mt-4" data-aos="fade-up" data-aos-duration="1500">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
+					<h1 class="animated slideInUp">Certidão Online</h1>
+					<p class="lh-2 mt-4 animated slideInUp">Certidão de nascimento, casamento e óbito<br>
+					Matrícula de imóvel atualizada<br>
+					Certidão de ônus<br>
+					Entre outras..</p>
 				</div>
 			</div>
 
 			<div class="carousel-item">
-				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="...">
+				<img src="{{ asset('img/site/ilustracao/protocolo.png') }}" class="img-fluid d-block w-100" alt="...">
 				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
-					<h1>Protocolo Eletrônico</h1>
-					<p class="lh-2 mt-4">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
+					<h1 class="animated slideInUp">Protocolo Eletrônico</h1>
+					<p class="lh-2 mt-4 animated slideInUp" data-aos="fade-up" data-aos-duration="1500">Destina-se à postagem e ao tráfego de traslados, certidões e outros títulos, públicos ou particulares.</p>
 				</div>
 			</div>
 
 			<div class="carousel-item">
-				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="...">
+				<img src="{{ asset('img/site/ilustracao/intimacao.png') }}" class="img-fluid d-block w-100" alt="...">
 				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
-					<h1>Intimações de Protesto</h1>
-					<p class="lh-2 mt-4">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
+					<h1 class="animated slideInUp">Intimações de Protesto</h1>
+					<p class="lh-2 mt-4 animated slideInUp">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
 				</div>
 			</div>
 
@@ -51,9 +54,7 @@
 				<h1 data-aos="fade-down" data-aos-duration="1500">Certidões Online</h1>
 				<div data-aos="fade-right" data-aos-duration="1500" class="mt-4 pr-5">
 					<span class="text-muted lh-2">
-						Position an element at the top of the viewport, from edge to edge. 
-						Be sure you understand the ramifications of fixed position in your project.
-						You may need to add additional.
+						Disponibiliza aos usuários a possibilidade de obter certidões digitalmente assinadas de qualquer serventisa extrajudicial (cartório) existente no Maranhão, bem como a solicitação do envio das certidões físicas via Sedex. As certidões expedidas digitalmente pela Cartórios Maranhão tem validade jurídica assegurada...
 					</span>
 				</div>
 				<div class="mt-3 img1"  data-aos="fade-up" data-aos-duration="1500">
@@ -83,9 +84,7 @@
 				<h1 data-aos="fade-down" data-aos-duration="1500">Busca de Imóveis</h1>
 				<div class="mt-4 pr-9" data-aos="fade-left" data-aos-duration="1500">
 					<span class="text-muted lh-2">
-						Position an element at the top of the viewport, from edge to edge. 
-						Be sure you understand the ramifications of fixed position in your project.
-						You may need to add additional.
+						A Pesquisa Eletrônica é destinada a busca na Base de Dados do Cartórios Maranhão, de todos os atos lançados pelas respectivas serventias de Registro de Imóveis do Maranhão. Esta solicitação resultará na informação de Existência ou Não de Matrículas e Registros em nome do CNPJ ou CPF informado.
 					</span>
 				</div>
 				<div class="mt-3" data-aos="fade-up" data-aos-duration="1500">
@@ -140,15 +139,12 @@
 					<div class="card-body">
 						<img class="img-fluid" src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
-							<h4 class="text-primary">Noticia 1</h4>
 							<span class="text-muted">
-								Position an element at the top of the viewport, from edge to edge. 
-								Be sure you understand the ramifications of fixed position in your project.
-								You may need to add additionals
+								Provimento trata de possibilidades de alterações nos sobrenomes de forma extrajudicial
 							</span>
 						</div>
 						<div class="mt-2 mr-1 text-right">
-							<button class="btn btn-dark btn-sm">Saber mais...</button>
+							<button class="btn btn-dark btn-sm" onclick="location.href= 'https://www.atcma.com.br/noticias/noticia/provimento-trata-de-possibilidades-de-alteracoes-nos-sobrenomes-de-forma-extrajudicial'">Saber mais...</button>
 						</div>
 					</div>
 				</div>
@@ -156,14 +152,12 @@
 					<div class="card-body">
 						<img class="img-fluid" src="{{ asset('img/site/noticias/not2.jpeg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
-							<h4 class="text-primary">Noticia 2</h4>
+							<!--h4 class="text-primary">Noticia 2</h4-->
 							<span class="text-muted">
-								Position an element at the top of the viewport, from edge to edge. 
-								Be sure you understand the ramifications of fixed position in your project.
-								You may need to add additionals
+								Des. Ricardo Dip ministra aula que consiste nos comentários e glosas referente ao Artigo 144
 							</span>
 							<div class="mt-2 mr-1 text-right">
-								<button class="btn btn-dark btn-sm">Saber mais...</button>
+								<button class="btn btn-dark btn-sm" onclick="location.href= 'https://www.atcma.com.br/noticias/noticia/des-ricardo-dip-ministra-aula-que-consiste-nos-comentarios-e-glosas-referente-ao-artigo-144'">Saber mais...</button>
 							</div>
 						</div>
 					</div>
@@ -172,14 +166,12 @@
 					<div class="card-body">
 						<img class="img-fluid" src="{{ asset('img/site/noticias/not3.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
-							<h4 class="text-primary">Noticia 3</h4>
+							<!--h4 class="text-primary">Noticia 3</h4-->
 							<span class="text-muted">
-								Position an element at the top of the viewport, from edge to edge. 
-								Be sure you understand the ramifications of fixed position in your project.
-								You may need to add additionals
+								ATC Educa realiza primeira aula experimental para escreventes de cartórios
 							</span>
 							<div class="mt-2 mr-1 text-right">
-								<button class="btn btn-dark btn-sm">Saber mais...</button>
+								<button class="btn btn-dark btn-sm" onclick="location.href= 'https://www.atcma.com.br/noticias/noticia/atc-educa-realiza-primeira-aula-experimental-para-escreventes-de-cartorios'">Saber mais...</button>
 							</div>
 						</div>
 					</div>

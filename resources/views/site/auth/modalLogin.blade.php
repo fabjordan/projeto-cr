@@ -3,7 +3,7 @@
 		<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 			<div class="modal-content">	
 				<div class="header-login">
-					<a href="/site/cadastro">Cadastro de usuário</a>
+					<a href="/cadastro">Cadastro de usuário</a>
 				</div>		
 				<div class="icon"><img src="{{asset('img/logo.png')}}">
 				</div>
@@ -32,7 +32,7 @@
 		<div class="modal-dialog modal-dialog-centered modal-sm" role="certificado">
 			<div class="modal-content">
 				<div class="header-login">
-					<a href="/site/cadastro">Cadastro de usuário</a>
+					<a href="/cadastro">Cadastro de usuário</a>
 				</div>
 
 				<div class="icon"><img src="{{asset('img/logo.png')}}">
@@ -61,7 +61,7 @@
 		<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 			<div class="modal-content">
 				<div class="header-login">
-					<a href="/site/cadastro">Cadastro de usuário</a>
+					<a href="/cadastro">Cadastro de usuário</a>
 				</div>
 
 				<div class="icon"><img src="{{asset('img/logo.png')}}">

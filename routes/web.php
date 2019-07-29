@@ -10,19 +10,49 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function(){
+	return view('site.index');
+})->name('site.index');
 
-/*Route::get('/', function () {
-	return view('index');
-});
+Route::get('/emolumentos', function(){
+	return view('site.emolumentos');
+})->name('site.emolumentos');
 
-Route::get('/PessoaFisica', function(){
-	return view('cadastroFisica');
-});
 
-Route::get('/PessoaJuridica', function(){
-	return view('cadastroJuridica');
-});
-*/
+Route::get('/institucional', function(){
+	return view('site.institucional');
+})->name('site.institucional');
+
+
+Route::get('/servicos', function(){
+	return view('site.servicos');
+})->name('site.servicos');
+
+Route::get('/cadastro', function(){
+	return view('site.cadastro');
+})->name('site.cadastro');
+
+Route::get('/pessoa-fisica', function(){
+	return view('site.cadastrar.pessoa-fisica');
+})->name('site.pessoa-fisica');
+
+
+Route::get('/pessoa-juridica', function(){
+	return view('site.cadastrar.pessoa-juridica');
+})->name('site.pessoa-juridica');
+
+Route::get('/suporte', function(){
+	return view('site.suporte');
+})->name('site.suporte');
+
+Route::get('/cartorios', function(){
+	return view('site.cartorios');
+})->name('site.cartorios');
+
+Route::get('/emolumentos', function(){
+	return view('site.emolumentos');
+})->name('site.emolumentos');
+
 Route::group(['prefix' => '/cliente', 'namespace' => 'Cliente'], function(){
 
 	Route::get('/dashboard', function(){
@@ -49,52 +79,4 @@ Route::group(['prefix' => '/cliente', 'namespace' => 'Cliente'], function(){
 		return view('cliente.perfil');
 	})->name('cliente.perfil');
 
-});
-
-
-Route::group(['prefix' => '/site'], function(){
-
-	Route::get('/index', function(){
-		return view('site.index');
-	})->name('site.index');
-
-
-	Route::get('/emolumentos', function(){
-		return view('site.emolumentos');
-	})->name('site.emolumentos');
-
-
-	Route::get('/institucional', function(){
-		return view('site.institucional');
-	})->name('site.institucional');
-
-
-	Route::get('/servicos', function(){
-		return view('site.servicos');
-	})->name('site.servicos');
-
-	Route::get('/cadastro', function(){
-		return view('site.cadastro');
-	})->name('site.cadastro');
-
-	Route::get('/pessoa-fisica', function(){
-		return view('site.cadastrar.pessoa-fisica');
-	})->name('site.pessoa-fisica');
-
-
-	Route::get('/pessoa-juridica', function(){
-		return view('site.cadastrar.pessoa-juridica');
-	})->name('site.pessoa-juridica');
-
-	Route::get('/suporte', function(){
-		return view('site.suporte');
-	})->name('site.suporte');
-
-	Route::get('/cartorios', function(){
-		return view('site.cartorios');
-	})->name('site.cartorios');
-
-	Route::get('/emolumentos', function(){
-		return view('site.emolumentos');
-	})->name('site.emolumentos');
 });

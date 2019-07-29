@@ -1,10 +1,12 @@
 
 // Section de Notícias
+.text-slide{
+	font-size: 1.3rem;		
+}
 .noticias{
 	background-color: $gray-100;
 	.row{
 	}
-
 	.owl-carousel{
 
 		.owl-stage-outer{

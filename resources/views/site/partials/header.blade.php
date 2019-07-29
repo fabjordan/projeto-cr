@@ -16,6 +16,7 @@
 	<!-- Icons Mind -->
 	<link rel="stylesheet" href="{{ asset('fonts/iconsmind/style.css') }}" />
 	<link rel="stylesheet" href="{{ asset('fonts/simple-line-icons/css/simple-line-icons.css') }}" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
 
 	<!-- AOS -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
