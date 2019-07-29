@@ -140,7 +140,7 @@
 						<img src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<span class="text-muted">
-								Provimento trata de possibilidades de alterações nos sobrenomes de forma extrajudicial
+								Provimento trata de possibilidades de alterações nos sobrenomes...
 							</span>
 						</div>
 						<div class="mt-2 mr-1 text-right">
@@ -154,7 +154,7 @@
 						<div class="mt-2">
 							<!--h4 class="text-primary">Noticia 2</h4-->
 							<span class="text-muted">
-								Des. Ricardo Dip ministra aula que consiste nos comentários e glosas referente ao Artigo 144
+								Des. Ricardo Dip ministra aula que consiste nos comentários e glosas referente...
 							</span>
 							<div class="mt-2 mr-1 text-right">
 								<button class="btn btn-dark btn-sm" onclick="location.href= 'https://www.atcma.com.br/noticias/noticia/des-ricardo-dip-ministra-aula-que-consiste-nos-comentarios-e-glosas-referente-ao-artigo-144'">Saber mais...</button>

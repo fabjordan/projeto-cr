@@ -17,7 +17,7 @@
 						<li class="nav-item"><a class="nav-link" href="{{ route('site.institucional') }}">Institucional</a></li> 
 						<li class="nav-item submenu dropdown">
 							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
-							<ul class="dropdown-menu">
+							<ul class="dropdown-menu"  style="width: 400px; max-height: 250px !important; overflow-y: scroll !important;">
 								<li class="nav-item">
 									<a class="nav-link" href="#">Certidões Online</a>                 
 								</li>
@@ -25,7 +25,22 @@
 									<a class="nav-link" href="#">Protocolo Eletrônico</a>                 
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Pesquisa Eletrônica</a>                 
+									<a class="nav-link" href="#">Pesquisa de Imóveis</a>                 
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pesquisa de Protesto</a>                 
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Intimação Eletrônica de Protesto</a>                 
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Indisponibilidade de bens</a>                 
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Autenticidade de Documentos</a>                 
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Chamados</a>                 
 								</li>
 							</ul>
 						</li>

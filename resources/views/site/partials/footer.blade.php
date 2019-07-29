@@ -20,16 +20,16 @@
 				<h5>Atendimento</h5>
 			</div>
 			<p>
-				Atendimento: Segunda a Sexta | 08h30 às 12h - 13h às 17h30<br>
-				Contato: (98) 3089-5426 | (98) 3011-4343 <br>
-				contato@cartoriosmaranhao.com.br <br>
+				Atendimento: Segunda a Sexta | 00 às 00 - 00 às 00<br>
+				Contato: (xx) xxxx-xxxx | (xx) xxxx-xxxx <br>
+				contato@xxxxxxxx.com.br <br>
 			</p>
 			<a href="#"><img  src="{{ asset('img/icones/face.png') }}"></a>
 			<a href="#"><img src="{{ asset('img/icones/insta.png') }}"></a>
 		</div>
 	</div>
 	<div class="row final-page">
-		<p class="text-center col-12">© 2016 - 2019 XXXXXXX.com.br - Todos os direitos reservados.</p>
+		<p class="text-center col-12">© 2019 XXXXXXX.com.br - Todos os direitos reservados.</p>
 	</div>
 </footer>
 
