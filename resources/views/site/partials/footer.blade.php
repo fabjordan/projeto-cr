@@ -2,7 +2,7 @@
 <footer class="container-fluid">
 	<div class="row div-footer">
 		<div class="col-md-6 col-sm-6 col-xs-12">				
-			<ul style="" data-aos="fade-right" data-aos-duration="3000" >
+			<ul class="col-md-12 text-left" data-aos="fade-right" data-aos-duration="3000" >
 				<div class="titulo-footer">
 					<h5 >Serviços</h5>
 				</div>
@@ -28,8 +28,8 @@
 			<a href="#"><img src="{{ asset('img/icones/insta.png') }}"></a>
 		</div>
 	</div>
-	<div class="row final-page" data-aos="fade-right" data-aos-duration="3000" >
-		<p class="text-center col-12">© 2016 - 2019 CartoriosMaranhão.com.br - Todos os direitos reservados.</p>
+	<div class="row final-page">
+		<p class="text-center col-12">© 2016 - 2019 XXXXXXX.com.br - Todos os direitos reservados.</p>
 	</div>
 </footer>
 

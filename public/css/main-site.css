@@ -435,12 +435,19 @@
   margin-top: -2%;
 }
 
+@media only screen and (max-width: 767px) {
+  .text-slide {
+    margin-left: 0 !important;
+  }
+}
+
 footer {
   background-color: #262228;
   color: #999a9b;
 }
 
 footer ul {
+  padding-left: 0 !important;
   list-style: none;
 }
 
@@ -471,11 +478,26 @@ footer .titulo-footer h5 {
   margin-left: 2%;
 }
 
+footer .final-page {
+  margin-top: 4%;
+}
+
 .contato .background-img {
   background-image: url(/images/contato.png?495a4be6e8d02c792c57febf4e4a357c);
   background-repeat: no-repeat, repeat;
   background-size: 65%;
   background-position: initial;
+}
+
+@media only screen and (max-width: 767px) {
+  .div-suport {
+    padding-left: 0 !important;
+    padding-bottom: 2%;
+  }
+
+  .background-img {
+    padding-bottom: 0 !important;
+  }
 }
 
 .modal-content {
@@ -667,11 +689,52 @@ footer .titulo-footer h5 {
 }
 
 @media only screen and (max-width: 800px) {
+  .cadastro .img1 {
+    position: relative;
+  }
+
+  .cadastro .img1 img {
+    opacity: 0.3;
+  }
+
+  .cadastro .cadastro__descricao {
+    margin-top: 6%;
+    position: absolute !important;
+  }
+
+  .cadastro .cadastro__descricao div p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
   .emolumentos .img1 {
     position: relative;
   }
 
+  .emolumentos .img1 img {
+    opacity: 0.3;
+  }
+
   .emolumentos .emolumentos__descricao {
+    position: absolute !important;
+  }
+}
+
+.cartorios {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .cartorios .img1 {
+    position: relative;
+  }
+
+  .cartorios .img1 img {
+    opacity: 0.3;
+  }
+
+  .cartorios .cartorio__descricao {
     position: absolute !important;
   }
 }

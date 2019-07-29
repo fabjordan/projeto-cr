@@ -3,8 +3,8 @@ footer {
     color: #999a9b;
     
     ul {
+        padding-left: 0 !important;
         list-style: none;
-
         a {
             color: #999a9b;
 
@@ -32,6 +32,9 @@ footer {
         h5 {
             margin-left: 2%;
         }
+    }
+    .final-page{
+        margin-top: 4%;
     }
 
 }

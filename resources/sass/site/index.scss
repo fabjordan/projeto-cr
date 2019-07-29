@@ -1,9 +1,7 @@
 
 // Section de Notícias
 .noticias{
-	
 	background-color: $gray-100;
-	
 	.row{
 	}
 
@@ -26,4 +24,10 @@
 		}
 	}
 
+}
+
+@media only screen and (max-width: 767px) {
+	.text-slide{
+		margin-left: 0 !important;
+	}
 }

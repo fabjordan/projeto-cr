@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="pl-5">
+				<div class="pl-5 div-suport">
 					<span class="lh-1 text-muted">
 						Aqui você encontra materiais e informações disponíveis para atender aos requesitos 
 						técnicos da central Cartórios Maranhão. Alguns conteúdos aqui abordados terão uma comunicação mais técnica 

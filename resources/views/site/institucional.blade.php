@@ -16,9 +16,9 @@
 				</div>
 				<div class="col-md-7 col-xs-12 text-justify py-5 texto-institucional" data-aos-duration="1000" data-aos="zoom-in">
 					<p class="text-muted">
-						CARTÓRIOS RORAIMA é a marca da CENTRAL ÚNICA DE SERVIÇOS ELETRÔNICOS COMPARTILHADOS, criada pelo Provimento nº 13/2016 da Corregedoria Geral da Justiça de Roraima, e mantido pela Associação dos Titulares de Cartórios de Maranhão.<br><br>
+						CARTÓRIOS RORAIMA é a marca da CENTRAL ÚNICA DE SERVIÇOS ELETRÔNICOS COMPARTILHADOS, criada pelo Provimento nº XX/XXXX da Corregedoria Geral da Justiça de XXXXXX, e mantido pela Associação dos Titulares de Cartórios de XXXXXX.<br><br>
 
-						Tem a função de centralizar as informações das Serventias Extrajudiciais do Roraima, conforme determina o Conselho Nacional de Justiça nos Provimentos nº 46, 47 e 48.
+						Tem a função de centralizar as informações das Serventias Extrajudiciais do Roraima, conforme determina o Conselho Nacional de Justiça nos Provimentos nº XX, XX e XX.
 					</p>
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 				</div>
 				<div class="col-md-7 mt-5 col-xs-12 text-justify align-middle" data-aos-duration="1000" data-aos="zoom-in" style="font-size: 1.15rem;">
 					<p class="text-muted">
-						A Cartórios Roraima é responsável por operacionalizar o Sistema de Registro Eletrônico de Imóveis no Estado do Roraima, previsto pela Lei nº 11.977/2009, que impõe a integração das Serventias de Registro de Imóveis ao universo tecnológico do registro eletrônico. Assim, os usuários poderão apresentar títulos e documentos para registro mediante utilização da Cartórios Roraima, com a comodidade das ferramentas digitais disponíveis, sem ter que se deslocar fisicamente ao cartório.<br>
+						A Cartórios Roraima é responsável por operacionalizar o Sistema de Registro Eletrônico de Imóveis no Estado do Roraima, previsto pela Lei nº XX.XXX/XXXX, que impõe a integração das Serventias de Registro de Imóveis ao universo tecnológico do registro eletrônico. Assim, os usuários poderão apresentar títulos e documentos para registro mediante utilização da Cartórios Roraima, com a comodidade das ferramentas digitais disponíveis, sem ter que se deslocar fisicamente ao cartório.<br>
 						Acreditamos que a Cartórios Roraima permitirá aos usuários vivenciarem uma experiência totalmente nova, eficiente e segura. Um dos objetivos da unificação das informações registrais e notariais é de revitalizar a imagem dos Cartórios perante a sociedade, buscando acompanhar o que há de mais avançado em tecnologia web, aliando segurança jurídica, segurança digital e comodidade.
 					</p>
 				</div>

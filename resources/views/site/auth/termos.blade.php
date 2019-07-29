@@ -1,0 +1,14 @@
+<h2 class="text-center">Termos de Condições e Uso</h2>
+<p class="text-justify">		
+
+	INFORMAÇÃO ÚTIL: Os pedidos efetuados na Cartórios Maranhão estão atrelados às informações prestadas no momento do pedido. Qualquer erro ou omissão poderá importar em uma resposta incompleta. A responsabilidade pelos dados informados é do solicitante. Uma vez efetuado o pedido e compensado o pagamento, não poderá mais ser cancelada a solicitação, bem como não haverá devolução de valores pelo preenchimento incorreto das informações.<br><br>
+
+	DA EXATIDÃO DAS INFORMAÇÕES: As informações apresentadas pela Cartórios Maranhão dizem respeito aos dados alimentados pelas Serventias Extrajudiciais do Maranhão. Qualquer erro, imprecisão, ou omissão pode ser imputado à falha no preenchimento do Banco de Dados Simplificado da Central pelos responsáveis pelas serventias.<br><br>
+
+	VALORES COBRADOS: Os serviços realizados na Cartórios Maranhão serão pagos, dividindo-se em: a) taxa administrativa destinada à manutenção dos serviços online; b) emolumentos destinados às serventias extrajudiciais; c) despesas legais destinadas ao FERJ (Fundo Especial de Reaparelhamento do Judiciário) e ao FERC (Fundo Especial das Serventias de Registro Civil das Pessoas Naturais do Maranhão); d) Imposto Sobre Serviços de Qualquer Natureza (ISSQn), incidente sobre os atos praticados pelas serventias extrajudiciais; e) Imposto Sobre Serviços de Qualquer Natureza (ISSQn), incidente sobre os servicos prestados pela Cartórios Maranhão; e) despesas postais (pelo envio dos atos solicitados fisicamente ao usuário via SEDEX), quando assim for solicitado pelo usuário.<br><br>
+
+	ROTEIRO DE USO: Quando o usuário concluir o preenchimento das informações solicitadas, o sistema comunicará a Serventia para informar os valores que serão cobrados para a realização do ato. Então, o usuário será comunicado para efetuar o pagamento dos valores devidos. Após a liquidação financeira do pagamento, começará o prazo legal de 5 (cinco) dias úteis para que o serviço seja disponibilizado ao usuário para download (assinado digitalmente). O arquivo estará disponível para download pelo usuário por 30 (trinta) dias, quando então será excluída da Central. A verificação de autenticidade das certidões e atos expedidos via Cartórios Maranhão também será disponibilizada pelo prazo de 90 (noventa) dias. Ressalva-se que o prazo de 5 (cinco) dias úteis mencionado pode, eventualmente, ser estendido pela própria serventia emissora, em razão de dificuldades técnicas e operacionais (como quantidade de pedidos, precariedade do acervo, extensão dos atos a serem digitados, etc) que serão devidamente justificadas ao usuário.<br><br>
+
+	As certidões expedidas digitalmente pela Cartórios Maranhão tem validade jurídica assegurada pelo Provimento nº xx/2016 da Corregedoria Geral da Justiça do Maranhão, firmada nos preceitos estabelecidos na Medida Provisória 2.2002-2/2001 (art. 10).
+
+</p>

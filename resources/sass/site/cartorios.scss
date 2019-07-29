@@ -1,6 +1,10 @@
+.cartorios{
+	margin-top: 100px;
+}
+
 @media only screen and (max-width: 800px) {
 
-	.emolumentos{
+	.cartorios{
 
 		.img1{
 			img{
@@ -9,11 +13,10 @@
 			position: relative;
 		}
 
-		.emolumentos__descricao{
+		.cartorio__descricao{
 			position: absolute !important;
 		}
 
 	}
 
 }
-

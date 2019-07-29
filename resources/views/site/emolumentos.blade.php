@@ -13,14 +13,14 @@
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-12 col-xs-12 emolumentos__descricao">
+			<div class="justify-content-centerjustify-co col-md-6 col-sm-12 col-xs-12 emolumentos__descricao">
 				<div class="mt-10">
 					<h2>Emolumentos</h2>
 				</div>
 				<div class="mt-2">
 					<h5 class="text-muted">Aqui você pode encontrar e pesquisar os valores da Tabela de Custas e Emolumentos atualizada, fornecida pelo Tribunal de Justiça.</h5>
 				</div>
-				<div class="pr-5 pt-4">
+				<div>
 					<form>
 						<div class="form-group">
 							<input class="form-control" type="text" name="pesquisa" placeholder="Digite sua Busca">
@@ -41,7 +41,7 @@
 						<div class="form-group">
 							<button type="submit" class="btn btn-success btn-block">Pesquisar</button>
 						</div>
-					</form>
+					</for>
 				</div>
 			</div>
 		</div>

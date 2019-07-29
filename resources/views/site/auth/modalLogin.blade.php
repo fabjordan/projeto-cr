@@ -45,10 +45,6 @@
 							<option>123456789</option>
 						</select>
 					</div>
-					<div class="form-group">
-						<input class="form-control  input-modal" type="password" name="senha" placeholder="Senha">
-						<a class="link-modal" href="#" data-toggle="modal" data-target="#modal-RecCerti" data-dismiss="modal">Esqueci a senha</a>
-					</div>
 					<div class="col-12 botao-modal">				
 						<button type="button" class="botao botao-login col-12" href="#">Entrar</button>
 					</div>
@@ -85,39 +81,6 @@
 							<a href="#" class="col-12" data-toggle="modal" data-target="#modal-cent" data-dismiss="modal">Login com Certificado Digital</a>
 						</div>							
 					</form>	
-				</div>	
-			</div>
-		</div>					
-	</div>
-
-	<!-- Modal recuperação de senha Certificado-->
-	<div class="modal" id="modal-RecCerti" tabindex="-1" role="dialog" arial-labelledby="ModalSenha" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-			<div class="modal-content">
-				<div class="header-login">
-					<a href="/site/cadastro">Cadastro de usuário</a>
-				</div>
-				<div class="icon"><img src="{{asset('img/logo.png')}}">
-				</div>
-				<div class="mb-3">
-					<form class="formulario">
-						<div class="form-group">
-							<select class="custom-select form-control input-modal">
-								<option>123456789</option>
-								<option>123456789</option>
-								<option>123456789</option>
-							</select>				
-						</div>
-						<div class="col-12 botao-modal">							
-							<button type="button" class="botao botao-login col-12" href="#">Recuperar Senha</button>
-						</div>												
-					</form>
-					<div class="botao-modal">
-						<a href="#" data-toggle="modal" data-target="#login" data-dismiss="modal">Login com Documento</a>
-					</div>
-					<div class="botao-modal">
-						<a href="#" data-toggle="modal" data-target="#modal-cent" data-dismiss="modal">Login com Certificado Digital</a>
-					</div>
 				</div>	
 			</div>
 		</div>					

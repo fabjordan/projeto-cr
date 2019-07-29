@@ -8,7 +8,7 @@
 
 			<div class="carousel-item active">
 				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="Certdiões Online">
-				<div class="col-md-6 col-xs-12 top-30 ml-8">
+				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
 					<h1 data-aos="fade-right" data-aos-duration="1500">Certidão Online</h1>
 					<p class="lh-2 mt-4" data-aos="fade-up" data-aos-duration="1500">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
 				</div>
@@ -16,7 +16,7 @@
 
 			<div class="carousel-item">
 				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="...">
-				<div class="col-md-6 col-xs-12 top-30 ml-8">
+				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
 					<h1>Protocolo Eletrônico</h1>
 					<p class="lh-2 mt-4">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
 				</div>
@@ -24,7 +24,7 @@
 
 			<div class="carousel-item">
 				<img src="{{ asset('img/site/ilustracao/certidoes.png') }}" class="d-block w-100" alt="...">
-				<div class="col-md-6 col-xs-12 top-30 ml-8">
+				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
 					<h1>Intimações de Protesto</h1>
 					<p class="lh-2 mt-4">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
 				</div>
@@ -56,7 +56,7 @@
 						You may need to add additional.
 					</span>
 				</div>
-				<div class="mt-3"  data-aos="fade-up" data-aos-duration="1500">
+				<div class="mt-3 img1"  data-aos="fade-up" data-aos-duration="1500">
 					<button class="btn btn-primary">Saber mais...</button>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div data-aos="fade-left" data-aos-duration="2000" class="ml-4">
-				<img src="{{ asset('img/site/ilustracao/documento2.png') }}" alt="Certidão Online" width="550">
+				<img class="img-fluid" src="{{ asset('img/site/ilustracao/documento2.png') }}" alt="Certidão Online" width="550">
 			</div>
 		</div>
 
@@ -74,7 +74,7 @@
 
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div data-aos="fade-right" data-aos-duration="1500" class="ml-6 pl-5 p-2">
-				<img src="{{ asset('img/site/ilustracao/imoveis1.png') }}" alt="Certidão Online" width="380">
+				<img class="img-fluid" src="{{ asset('img/site/ilustracao/imoveis1.png') }}" alt="Certidão Online" width="380">
 			</div>
 		</div>
 		
@@ -116,7 +116,7 @@
 
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div class="ml-5 p-2" data-aos="fade-up" data-aos-duration="1500">
-				<img src="{{ asset('img/site/ilustracao/protesto.png') }}" alt="Certidão Online" width="400">
+				<img class="img-fluid" src="{{ asset('img/site/ilustracao/protesto.png') }}" alt="Certidão Online" width="400">
 			</div>
 		</div>
 
@@ -138,7 +138,7 @@
 			<div class="owl-carousel">
 				<div class="card">
 					<div class="card-body">
-						<img src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
+						<img class="img-fluid" src="{{ asset('img/site/noticias/not1.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<h4 class="text-primary">Noticia 1</h4>
 							<span class="text-muted">
@@ -154,7 +154,7 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<img src="{{ asset('img/site/noticias/not2.jpeg') }}" alt="" width="100" height="220">
+						<img class="img-fluid" src="{{ asset('img/site/noticias/not2.jpeg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<h4 class="text-primary">Noticia 2</h4>
 							<span class="text-muted">
@@ -170,7 +170,7 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<img src="{{ asset('img/site/noticias/not3.jpg') }}" alt="" width="100" height="220">
+						<img class="img-fluid" src="{{ asset('img/site/noticias/not3.jpg') }}" alt="" width="100" height="220">
 						<div class="mt-2">
 							<h4 class="text-primary">Noticia 3</h4>
 							<span class="text-muted">
@@ -199,10 +199,26 @@
 		owl.owlCarousel({
 			items:3,
 			loop:true,
-			margin:20,
+			margin:10,
 			autoplay:true,
 			autoplayTimeout:3000,
-			autoplayHoverPause:true
+			autoplayHoverPause:true,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				600:{
+					items:2,
+					nav:false
+				},
+				1000:{
+					items:3,
+					nav:true,
+					loop:false
+				}
+			}
 		});
 		$('.play').on('click',function(){
 			owl.trigger('play.owl.autoplay',[3000])

@@ -5,6 +5,7 @@
   background-color: rgba(212,212,212,0.3);
   padding-bottom: 2%;
 }
+
 .light__group {
   position: relative;
   margin: 2% auto;
@@ -79,4 +80,25 @@
     max-height: 180px;
     max-width: 180px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .cadastro{
+    .img1{
+      img{
+        opacity: 0.3;
+      }
+      position: relative;
+    }
+
+    .cadastro__descricao{
+      div p{
+      font-size: 1.4rem;}
+      margin-top: 6%;
+      position: absolute !important;
+    }
+
+  }
+
 }

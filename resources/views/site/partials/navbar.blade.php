@@ -5,8 +5,8 @@
 				<a class="navbar-brand logo_h" href="{{ route('site.index') }}">
 					<img src="{{ asset('img/logo.png') }}" width="160" alt="">
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
+				<button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="{{asset('img/icones/menu.png')}}">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>

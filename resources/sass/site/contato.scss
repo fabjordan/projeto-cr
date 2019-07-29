@@ -8,3 +8,14 @@
 		// height: 1000px;
 	}
 }
+
+
+@media only screen and (max-width: 767px){
+	.div-suport{
+		padding-left: 0 !important;
+		padding-bottom: 2%;
+	}
+	.background-img{
+		padding-bottom: 0 !important;
+	}
+}

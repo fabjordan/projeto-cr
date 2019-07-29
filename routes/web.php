@@ -97,5 +97,4 @@ Route::group(['prefix' => '/site'], function(){
 	Route::get('/emolumentos', function(){
 		return view('site.emolumentos');
 	})->name('site.emolumentos');
-
 });
