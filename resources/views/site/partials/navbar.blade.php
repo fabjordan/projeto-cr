@@ -3,7 +3,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 			<div class="container box_1620 col-12">
 				<a class="navbar-brand logo_h" href="{{ route('site.index') }}">
-					<img src="{{ asset('img/logo-menu.png') }}" width="160" alt="">
+					<img class="py-2" src="{{ asset('img/logo-menu.png') }}" width="160" alt="">
 				</a>
 				<div class=" border-left d-none d-sm-block">
 					<p class="ml-3 mt-3 text-muted">Central Única de Serviços

@@ -29,7 +29,7 @@
 				<img src="{{ asset('img/site/ilustracao/intimacao.png') }}" class="img-fluid d-block w-100" alt="...">
 				<div class="col-md-6 col-xs-12 top-30 ml-8 text-slide">
 					<h1 class="animated slideInUp">Intimações de Protesto</h1>
-					<p class="lh-2 mt-4 animated slideInUp">Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional</p>
+					<p class="lh-2 mt-4 animated slideInUp">Novo serviço disponibilizado pela Cartórios Roraima, para dar agilidade e segurança ao cidadão, sendo avisado com antecedência de um protesto em seu nome.</p>
 				</div>
 			</div>
 
@@ -102,9 +102,7 @@
 				<h1 data-aos="fade-down" data-aos-duration="1500">Intimações de Protesto</h1>
 				<div class="mt-4 pr-5" data-aos="fade-right" data-aos-duration="1500">
 					<span class="text-muted lh-2">
-						Position an element at the top of the viewport, from edge to edge. 
-						Be sure you understand the ramifications of fixed position in your project.
-						You may need to add additional.
+						Novo serviço disponibilizado pela Cartórios Roraima, para dar agilidade e segurança ao cidadão, sendo avisado com antecedência de um protesto em seu nome.
 					</span>
 				</div>
 				<div class="mt-3" data-aos="fade-up" data-aos-duration="1500">
