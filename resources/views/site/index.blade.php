@@ -54,7 +54,7 @@
 				<h1 data-aos="fade-down" data-aos-duration="1500">Certidões Online</h1>
 				<div data-aos="fade-right" data-aos-duration="1500" class="mt-4 pr-5">
 					<span class="text-muted lh-2">
-						Disponibiliza aos usuários a possibilidade de obter certidões digitalmente assinadas de qualquer serventisa extrajudicial (cartório) existente no Maranhão, bem como a solicitação do envio das certidões físicas via Sedex. As certidões expedidas digitalmente pela Cartórios Maranhão tem validade jurídica assegurada...
+						Disponibiliza aos usuários a possibilidade de obter certidões digitalmente assinadas de qualquer serventisa extrajudicial (cartório) existente em Roraima, bem como a solicitação do envio das certidões físicas via Correios. As certidões expedidas digitalmente pela Cartórios Roraima tem validade jurídica assegurada...
 					</span>
 				</div>
 				<div class="mt-3 img1"  data-aos="fade-up" data-aos-duration="1500">
@@ -84,7 +84,7 @@
 				<h1 data-aos="fade-down" data-aos-duration="1500">Busca de Imóveis</h1>
 				<div class="mt-4 pr-9" data-aos="fade-left" data-aos-duration="1500">
 					<span class="text-muted lh-2">
-						A Pesquisa Eletrônica é destinada a busca na Base de Dados do Cartórios Maranhão, de todos os atos lançados pelas respectivas serventias de Registro de Imóveis do Maranhão. Esta solicitação resultará na informação de Existência ou Não de Matrículas e Registros em nome do CNPJ ou CPF informado.
+						A Pesquisa Eletrônica é destinada a busca na Base de Dados do Cartórios Roraima, de todos os atos lançados pelas respectivas serventias de Registro de Imóveis de Roraima. Esta solicitação resultará na informação de Existência ou Não de Matrículas e Registros em nome do CNPJ ou CPF informado.
 					</span>
 				</div>
 				<div class="mt-3" data-aos="fade-up" data-aos-duration="1500">

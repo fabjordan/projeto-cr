@@ -269,6 +269,10 @@
   }
 }
 
+.header_area .navbar .nav .nav-item.submenu ul li {
+  width: 280px !important;
+}
+
 .header_area .navbar .nav .nav-item.submenu ul:before {
   content: "";
   width: 0;

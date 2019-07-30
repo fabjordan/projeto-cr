@@ -53,7 +53,7 @@
 				<div class="pl-5 div-suport">
 					<span class="lh-1 text-muted">
 						Aqui você encontra materiais e informações disponíveis para atender aos requesitos 
-						técnicos da central Cartórios Maranhão. Alguns conteúdos aqui abordados terão uma comunicação mais técnica 
+						técnicos da central Cartórios Roraima. Alguns conteúdos aqui abordados terão uma comunicação mais técnica 
 						e é imprescindível que isso seja levado até o profissional responsável por esta parte na sua Serventia. 
 					</span>
 				</div>
