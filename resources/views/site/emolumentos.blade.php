@@ -49,10 +49,6 @@
 
 	<div class="row">
 
-		<div class="col-md-12 text-center mt-6">
-			<h3>Tabela de Emolumentos</h3>
-		</div>
-
 		<div class="col-md-12">
 
 			<div class="table-responsive pl-5 pr-5">
