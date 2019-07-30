@@ -15,7 +15,7 @@
 
 			<div class="justify-content-centerjustify-co col-md-6 col-sm-12 col-xs-12 emolumentos__descricao">
 				<div class="mt-10">
-					<h2>Emolumentos</h2>
+					<h2> Tabela de Emolumentos</h2>
 				</div>
 				<div class="mt-2">
 					<h5 class="text-muted">Aqui você pode encontrar e pesquisar os valores da Tabela de Custas e Emolumentos atualizada, fornecida pelo Tribunal de Justiça.</h5>
