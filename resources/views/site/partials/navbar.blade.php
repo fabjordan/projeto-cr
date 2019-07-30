@@ -60,7 +60,7 @@
 
 					<div class="nav-right text-center text-lg-right py-4 py-lg-0">
 						<a class="btn btn-outline-info" href="#" data-toggle="modal" data-target="#login">Login</a>
-						<a class="btn btn-outline-info" href="/cadastro">Cadastrar</a>
+						<a class="btn btn-outline-info" href="{{ route('site.cadastro') }}">Cadastrar</a>
 					</div>
 				</div> 
 			</div>

@@ -6,13 +6,16 @@
 				<div class="titulo-footer">
 					<h5 >Serviços</h5>
 				</div>
-				<li><a href="#">Pesquisa eletrônica</a></li>
-				<li><a href="#">Certidões Online</a></li>
-				<li><a href="#">Protocolo Eletrônico</a></li>
-				<li><a href="#">Intimação Eletrônica</a></li>
-				<li><a href="#">Indisponibilidade de Bens</a></li>
 				<li><a href="#">Autenticidade de Documentos</a></li>
+				<li><a href="{{ route('site.cartorios') }}">Busca de Cartórios</a></li>
+				<li><a href="#">Certidões Online</a></li>
 				<li><a href="#">Chamados</a></li>
+				<li><a href="#">Indisponibilidade de Bens</a></li>				
+				<li><a href="#">Intimação Eletrônica de Protesto</a></li>
+				<li><a href="#">Pesquisa de Imóveis</a></li>				
+				<li><a href="#">Pesquisa de Protesto</a></li>
+				<li><a href="#">Protocolo Eletrônico</a></li>
+				<li><a href="{{ route('site.emolumentos') }}">Tabela de Emolumentos</a></li>
 			</ul>
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12" data-aos="fade-right" data-aos-duration="3000" >
