@@ -12,7 +12,7 @@
 		<div class="col-md-12 col-xs-12">
 			<div class="row sec-institucional">
 				<div class="col-md-5 col-xs-12 py-5">
-					<img class="img-institucional" data-aos-duration="2000" data-aos="fade-right" src="{{asset('img/vetores/logo.png')}}">
+					<img class="img-institucional w-100" data-aos-duration="2000" data-aos="fade-right" src="{{asset('img/logo.png')}}">
 				</div>
 				<div class="col-md-7 col-xs-12 text-justify py-5 texto-institucional" data-aos-duration="1000" data-aos="zoom-in">
 					<p class="text-muted">

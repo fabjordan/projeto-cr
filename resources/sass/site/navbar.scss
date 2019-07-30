@@ -1,3 +1,9 @@
+.fixed-top{
+	@media(max-width: 991px){
+		position: static !important;
+	}
+}
+
 
 /* header style start
 ============================================================================================ */
@@ -44,9 +50,15 @@
 	}
 	.menu_nav{
 		width: 100%;
+		.nav-item{
+			.nav-link:hover{
+			background-color: $blue !important;
+			color: white !important;
+			}
+		}
 	}
 	.navbar{
-		background: $blue;
+		background: white;
 		border: 0px;
 		border-radius: 0px;
 		width: 100%;
@@ -56,28 +68,25 @@
 
 		.nav-right{
 			min-width: 260px;
-
-			a{
-			}
 		}
 
 		.nav{
 			.nav-item{
-				margin-right: 35px;
 				.nav-link{
 					font-family: $text-font;
-					color: $white;
+					color: $blue;
 					text-transform: capitalize;
 					font-weight: 500;
-					padding: 33px 0;                  
+					padding: 33px 15px;                  
 					display: inline-block;
 					&:after{
 						display: none;
-					}
+					}					
 				}
-				&:hover, &.active{
+				&:hover{
 					.nav-link{
-						color: $yellow;
+						background-color: white;
+						color: $blue;
 						opacity: 1;
 					}
 				}
